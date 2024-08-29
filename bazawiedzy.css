@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+}
+
+/* Nav */
+nav img {
+    height: 1em;
+    width: 3em;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 12px;
+    transition: color 0.35s;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    font-size: 1.6em;
+    justify-content: space-between;
+    background-color: rgb(240, 238, 238);
+    align-items: center;
+}
+
+nav a[href="index.html#home"] {
+    color: rgb(47, 255, 29);
+}
+
+nav a:hover {
+    color: rgb(47, 255, 29);
+}
+
+/* Articles */
+main {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+main>article {
+    display: flex;
+    justify-content: center;
+}
+
+main .articles-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    width: 85%;
+}
+
+main .categories {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 238, 238);
+    width: 22%;
+    text-align: start;
+    border: 1.5px solid rgb(47, 255, 29);
+    border-radius: 3%;
+}
+
+main .categories img {
+    width: 100%;
+    height: 200px;
+    border-radius: 3.8% 3.8% 0% 0%;
+}
+
+main .categories h2 {
+    padding: 5px 15px;
+}
+
+main .categories p {
+    line-height: 1.2em;
+    padding: 7px 15px;
+}
+
+main .categories>a {
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 15px 15px 15px;
+    transition: color 0.35s;
+}
+
+main .categories>a:hover {
+    color: rgb(47, 255, 29);
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(29, 230, 11);
+    justify-content: space-around;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+footer>.left {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-right: 185px;
+}
+
+footer .nav {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .nav a:hover {
+    color: white;
+}
+
+footer .nav a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.35s;
+}
+
+footer .kontakt {
+    margin: 0 50px;
+}
+
+.right h3 {
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+
+.left h3 {
+    font-size: 1.6em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.right section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.right {
+    margin-right: 4px;
+}
+
+.right section a i {
+    margin-top: 30px;
+    margin-right: 15px;
+    color: rgb(29, 230, 11);
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.right section a i:hover {
+    background-color: #bcbcbc;
+}
