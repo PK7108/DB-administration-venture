@@ -1,0 +1,333 @@
+* {
+    margin: 0px;
+}
+
+/*Nawigacja*/
+nav img {
+    height: 1em;
+    width: 3em;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 12px;
+    transition: color 0.35s;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    font-size: 1.6em;
+    justify-content: space-between;
+    background-color: rgb(240, 238, 238);
+    align-items: center;
+}
+
+nav a[href="index.html#home"] {
+    color: rgb(47, 255, 29);
+}
+
+nav a:hover {
+    color: rgb(47, 255, 29);
+}
+
+/*Baner*/
+.main-heading {
+    display: flex;
+    background-image: url(Zdjecia/Baner.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+    width: 100%;
+    color: rgb(55, 320, 59);
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* rgb(132, 241, 42) */
+    /* rgb(126, 241, 59) */
+}
+
+h1 {
+    margin-top: 80px;
+
+}
+
+.main-heading section h1,
+.main-heading section p {
+    font-size: 290%;
+    margin-right: 40px;
+    line-height: 1.8em;
+}
+
+.main-heading section p {
+    line-height: 1em;
+}
+
+.main-heading section h1 {
+    font-size: 4.8em;
+}
+
+/*O nas*/
+.main-introduction {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 550px;
+    background-color: rgb(240, 238, 238);
+    text-align: center;
+}
+
+.main-introduction h2 {
+    font-size: 2em;
+    margin-top: 120px;
+    margin-bottom: 25px;
+}
+
+.onas-text {
+    line-height: 18px;
+    width: 35%;
+    font-size: 1.25em;
+}
+
+.introduction-image {
+    width: 35%;
+    margin-top: 120px;
+    margin-bottom: 25px;
+}
+
+/* Offer */
+.offer {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+}
+
+.offer>h2 {
+    font-size: 2.2em;
+    margin: 30px;
+}
+
+.offer-block {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offer-block>section {
+    width: 25%;
+    margin: 10px;
+}
+
+.offer-block section>h3 {
+    font-size: 1.6em;
+}
+
+.offer-block section>img {
+    width: 11%;
+    height: 50px;
+}
+
+/* Reviews */
+.reviews {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(29, 230, 11);
+}
+
+.reviews>h2 {
+    margin-top: 10px;
+}
+
+.reviews-box {
+    display: flex;
+    align-items: center;
+}
+
+.reviews-block {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.left-reviews a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.11em;
+    transition: color 0.35s;
+}
+
+.left-reviews a:hover {
+    color: rgb(29, 230, 11);
+}
+
+.reviews>h2,
+.reviews>p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.reviews>h2 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.reviews-block article {
+    width: 20%;
+    margin: 30px;
+    background-color: white;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.stars {
+    color: gold;
+    margin-bottom: 4px;
+}
+
+.author {
+    margin-top: 3px;
+}
+
+.reviews-number {
+    margin: 5px 0;
+}
+
+/* Newsletter */
+.newsletter {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.above-h2 {
+    color: rgb(29, 230, 11);
+    font-size: 1.25em;
+}
+
+.newsletter>h2 {
+    margin: 10px 0;
+    font-size: 2.2em;
+}
+
+.newsletter input[type="submit"] {
+    background-color: rgb(29, 230, 11);
+    border: 0px;
+    padding: 8.5px;
+    border-radius: 13%;
+}
+
+.newsletter input[type="submit"]:hover {
+    background-color: rgb(38, 206, 23);
+}
+
+.newsletter input[type="email"] {
+    border: 2px solid rgb(29, 230, 11);
+    padding: 8.5px;
+}
+
+label[for="check"] {
+    position: relative;
+    padding-left: 3rem;
+    margin-bottom: 0;
+    cursor: pointer;
+    color: #bcbcbc;
+    min-height: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    user-select: none;
+}
+
+form>section {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.checkbox {
+    width: 30%;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(29, 230, 11);
+    justify-content: space-around;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+footer>.left {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-right: 185px;
+}
+
+footer .nav {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .nav a:hover {
+    color: white;
+}
+
+footer .nav a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.35s;
+}
+
+footer .kontakt {
+    margin: 0 50px;
+}
+
+.right h3 {
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+
+.left h3 {
+    font-size: 1.6em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.right section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.right {
+    margin-right: 4px;
+}
+
+.right section a i {
+    margin-top: 30px;
+    margin-right: 15px;
+    color: rgb(29, 230, 11);
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.right section a i:hover {
+    background-color: #bcbcbc;
+}
