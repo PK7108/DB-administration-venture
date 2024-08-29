@@ -1,0 +1,48 @@
+@import url('rejestracja.css');
+
+h1 {
+    font-size: 2.4em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+
+main>section {
+    width: 70%;
+    text-align: center;
+}
+
+
+.table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+.delete,
+.pdf {
+    width: 40%;
+}
+
+.delete-box,
+.pdf-box {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+    width: 22%;
+    height: 450px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+}

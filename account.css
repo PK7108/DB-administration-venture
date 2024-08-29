@@ -1,0 +1,38 @@
+@import url('rejestracja.css');
+
+h1 {
+    font-size: 2.4em;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.form {
+    height: 700px;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.select select {
+    width: 100%;
+    padding: 4px 0;
+}
+
+.file {
+    margin: 8px 0;
+}
+
+.description {
+    margin: 5px 0;
+}
+
+textarea {
+    resize: none;
+}
